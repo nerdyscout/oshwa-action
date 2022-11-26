@@ -1,0 +1,32 @@
+on: [push]
+name: Test
+jobs:
+  oshwa_test:
+    runs-on: ubuntu-latest
+    name: oshwa
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node for testing
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: npm test
+# POST
+      - name: post-request output
+        shell: pwsh
+        run: |
+          $output = '${{ steps.post-request.outputs.output }}' | ConvertFrom-Json
+          $output.statusCode -eq 200
+      - name: GET request
+        id: get-request
+        uses: nerdyscout/oshwa-action@main
+        with:
+          url: "https://my-json-server.typicode.com/nerdyscout/oshwa-action/"
+# GET
+      - name: get-request output
+        shell: pwsh
+        run: |
+          $output = '${{ steps.get-request.outputs.output }}' | ConvertFrom-Json
+          $output.data[0].id -eq US000001

@@ -1,0 +1,100 @@
+{
+  "options": {
+    "countryOptions": [
+      "Afghanistan",
+      "Albania",
+      "Algeria"
+    ],
+    "responsiblePartyTypeOptions": [
+      "Individaual",
+      "Company",
+      "Organization"
+    ],
+    "primaryTypeOptions": [
+      "3D Printing",
+      "Agriculture",
+      "Arts"
+    ],
+    "additionalTypeOptions": [
+      "3D Printing",
+      "Agriculture",
+      "Arts"
+    ],
+    "hardwareLicenseOptions": [
+      "CERN",
+      "Solderpad"
+    ],
+    "softwareLicenseOptions": [
+      "Apache",
+      "GPL"
+    ],
+    "documentationLicenseOptions": [
+      "CC 0",
+      "CC BY"
+    ]
+  },
+  "projects": [
+    {
+      "id": "US000001",
+      "responsibleParty": "Example Company Name",
+      "country": "United States of America",
+      "publicContact": "contact@example.com",
+      "projectName": "My Open Source Project",
+      "projectWebsite": "https://example.com",
+      "projectVersion": 1,
+      "previousVersions": [
+        "US000000"
+      ],
+      "projectDescription": "Open source project description",
+      "primaryType": "Electronics",
+      "additionalType": [
+        "3D Printing"
+      ],
+      "projectKeywords": [
+        "electronics"
+      ],
+      "citations": [
+        {
+          "url": "https://example.com",
+          "title": "My first citation"
+        }
+      ],
+      "documentationUrl": "https://example.com",
+      "hardwareLicense": "Other",
+      "softwareLicense": "No software",
+      "documentationLicense": "Other",
+      "certificationDate": "2020-04-09T00:00-04:00"
+    },
+    {
+      "id": "US000002",
+      "responsibleParty": "Example Company Name",
+      "country": "United States of America",
+      "publicContact": "contact@example.com",
+      "projectName": "My Open Source Project",
+      "projectWebsite": "https://example.com",
+      "projectVersion": 1,
+      "previousVersions": [
+        "US000000"
+      ],
+      "projectDescription": "Open source project description",
+      "primaryType": "Electronics",
+      "additionalType": [
+        "3D Printing"
+      ],
+      "projectKeywords": [
+        "electronics"
+      ],
+      "citations": [
+        {
+          "url": "https://example.com",
+          "title": "My first citation"
+        }
+      ],
+      "documentationUrl": "https://example.com",
+      "hardwareLicense": "Other",
+      "softwareLicense": "No software",
+      "documentationLicense": "Other",
+      "certificationDate": "2020-04-09T00:00-04:00"
+    }
+  ]
+}
