@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nerdyscout/oshwa-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
+    "@actions/core": "^1.11.1",
     "webrequest-action": "github:Satak/webrequest-action"
   },
   "devDependencies": {
