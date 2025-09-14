@@ -23,6 +23,6 @@
     "webrequest-action": "github:Satak/webrequest-action"
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^30.1.3"
   }
 }
